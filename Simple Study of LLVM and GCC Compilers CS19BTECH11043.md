@@ -57,13 +57,13 @@ int main()
     #include<stdio.h>  
     int main()
     {
-  	int m;
-  	int i;
-  	for(i=0;i<5;i++)
-  	{
-  		printf("%d ",i);
-  	}
-  	return 0;
+  		int m;
+  		int i;
+  		for(i=0;i<5;i++)
+  		{
+  			printf("%d ",i);
+  		}
+  		return 0;
     }
     ```
 
