@@ -13,7 +13,7 @@ int main()
 		int i;
 		for(i=0;i<5;i++)
 		{
-				printf("%d ",i);
+			printf("%d ",i);
 		}
 		return 0;
 }
@@ -61,7 +61,7 @@ int main()
     		int i;
     		for(i=0;i<5;i++)
     		{
-    				printf("%d ",i);
+    			printf("%d ",i);
     		}
     		return 0;
     }
@@ -154,7 +154,7 @@ int main()
     		int i;
     		for(i=0;i<5;i++)
     		{
-    				printf("%d ",i);
+    			printf("%d ",i);
     		}
     		return 0;
     }
@@ -377,8 +377,8 @@ The code being converted is a very simple hello world code written in C.
 
 int main()
 {
-		printf("Hello World !!\n");
-		return 0;
+	printf("Hello World !!\n");
+	return 0;
 }
 ```
 
@@ -491,20 +491,20 @@ int main()
 				a--;
 		}
 		auto end = chrono::high_resolution_clock::now();
-		cout<<chrono::duration_cast<chrono::microseconds>(end-begin).count()*(1e-3)<<endl;
+		cout<<chrono::duration_cast<chrono::microseconds>(end-begin).count()*(1e-3)<<"  milliseconds"<<endl;
 		return 0;
 }
 int factorial(int x)
 {
 		if(x==0)
 		{
-				return 0;		
+			return 0;		
 		}
 		int prod=1;
 		int i;
 		for(i=2;i<=x;i++)
 		{
-				prod=prod*i;
+			prod=prod*i;
 		}
 		return prod;
 }
