@@ -10,12 +10,12 @@ Taking a common code ( test.c ) to explain the respective options where ever req
 #include<stdio.h>  
 int main()
 {
-		int i;
-		for(i=0;i<5;i++)
-		{
-			printf("%d ",i);
-		}
-		return 0;
+	int i;
+	for(i=0;i<5;i++)
+	{
+		printf("%d ",i);
+	}
+	return 0;
 }
 ```
 
@@ -57,13 +57,13 @@ int main()
     #include<stdio.h>  
     int main()
     {
-    		int m;
-    		int i;
-    		for(i=0;i<5;i++)
-    		{
-    			printf("%d ",i);
-    		}
-    		return 0;
+  	int m;
+  	int i;
+  	for(i=0;i<5;i++)
+  	{
+  		printf("%d ",i);
+  	}
+  	return 0;
     }
     ```
 
@@ -150,13 +150,13 @@ int main()
     #include<stdio.h>  
     int main()
     {
-    		int m;
-    		int i;
-    		for(i=0;i<5;i++)
-    		{
-    			printf("%d ",i);
-    		}
-    		return 0;
+    	int m;
+    	int i;
+    	for(i=0;i<5;i++)
+    	{
+    		printf("%d ",i);
+    	}
+    	return 0;
     }
     ```
 
@@ -483,30 +483,30 @@ using namespace std;
 int factorial(int x);
 int main()
 {
-		auto begin = chrono::high_resolution_clock::now();
-		int a=30;
-		while(a>0)
-		{
-				cout<<factorial(10-a)<<endl;
-				a--;
-		}
-		auto end = chrono::high_resolution_clock::now();
-		cout<<chrono::duration_cast<chrono::microseconds>(end-begin).count()*(1e-3)<<"  milliseconds"<<endl;
-		return 0;
+	auto begin = chrono::high_resolution_clock::now();
+	int a=30;
+	while(a>0)
+	{
+		cout<<factorial(10-a)<<endl;
+		a--;
+	}
+	auto end = chrono::high_resolution_clock::now();
+	cout<<chrono::duration_cast<chrono::microseconds>(end-begin).count()*(1e-3)<<"  milliseconds"<<endl;
+	return 0;
 }
 int factorial(int x)
 {
-		if(x==0)
-		{
-			return 0;		
-		}
-		int prod=1;
-		int i;
-		for(i=2;i<=x;i++)
-		{
-			prod=prod*i;
-		}
-		return prod;
+	if(x==0)
+	{
+		return 0;		
+	}
+	int prod=1;
+	int i;
+	for(i=2;i<=x;i++)
+	{
+		prod=prod*i;
+	}
+	return prod;
 }
 ```
 
