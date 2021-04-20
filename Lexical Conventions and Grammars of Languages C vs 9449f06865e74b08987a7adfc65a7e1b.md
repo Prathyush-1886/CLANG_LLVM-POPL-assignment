@@ -24,7 +24,7 @@ We define a letter to be the set of letters a-z and their upper case forms and  
 
 An identifier is a sequence of  members of the letter and digit set , where it should always begin with a letter . The uppercase and lowercase letters are different from each other i.e. it is case sensitive.
 
-Regular Expression :   { letter } { letter /  digit }  *     (where letter / digit implies letter or digit )
+**Regular Expression :**   { letter } { letter /  digit }  *     (where letter / digit implies letter or digit )
 
 **Keywords :**
 
@@ -168,11 +168,11 @@ The implementation of string literals is also similar to C with the addition bei
 
 The Unicode string are much more complex than ASCII one and allow for the use of 65,536 unique characters. The Unicode string literals consist of the normal strings preceded by a prefix 'u' or a 'U' .
 
-Example :  u "Program"
+**Example** :  u "Program"
 
 In Unicode each character of the string is represented by a 16 bit integer value and being represented as a   'u' followed by the 4 digit hexadecimal number. 
 
-Example : P — u0050
+**Example** : P — u0050
 
 ### Operators, Delimiters and Special symbols
 
@@ -180,7 +180,7 @@ The various operators used are
 
  +   -    /    //    %  <     <<   *     >>     &    |
 
-^   ~    and may others 
+^   ~    and many others 
 
 These operators have various function overloaded so as to be applied to the various data types such as + operator can be used to add two numbers as well as to concatenate two strings.
 
@@ -300,13 +300,13 @@ Number is a data type that is used to refer to all forms of numbers that had bee
 
 The string literals are implemented in JavaScript in the Unicode 16 bit format where each character is 16 bit wide. Since there is no special character variable as in C to get a character literal in JavaScript we just make a string that contains only one character . The escape sequences similar to C allow us to enter character into the string that would have not been permitted.
 
-For Example : double quotes, back slash etc.
+**For Example** : double quotes, back slash etc.
 
 These are added using the format \u  where u helps us indicate the respective character code point.
 
 The conversion of character to Unicode format is similar to that of python(Unicode format)
 
-For Example :          C=== 'u0043'   ,   "CA" = u " \u0043\u0041 "
+**For Example** :          C=== 'u0043'   ,   "CA" = u " \u0043\u0041 "
 
 The strings in JavaScript are immutable i.e. once a value has been assigned to a string variable it cannot be changed and '+' operator supports concatenation of strings.
 
